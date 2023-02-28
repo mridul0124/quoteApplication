@@ -1,19 +1,21 @@
-.App {
+/* .App {
   text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+} */
+
+.App{
+  text-align: center;
+  background-image: url("images/bg-3.jpg");
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +24,65 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body{
+  /* background-color: darkmagenta; */
+  /* background-image: url(clock.png); */
+  /* background-size: 100%; */
+  /* height: 100vh; */
+  text-align: center;
+  /* height: 100%;
+  width: 100%; */
+}
+
+.heading{
+  position: absolute;
+  padding-top: 0px;
+  text-align: center;
+  color: white;
+  margin-left: 47%;
+}
+
+.image-bg{
+  position: absolute;
+}
+
+.quote-container{
+  padding: 5px;
+  position: absolute;
+  height:200px;
+  width: 250px;
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(3px);
+border-radius: 16px;
+  
+  left: 42%;
+  top:30%;
+  
+  margin: auto;
+  /* padding-top: 10%; */
+}
+
+.quote-text{
+  color:white;
+}
+
+.click-btn{
+  margin-top: 30px;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: black;
+ 
+  
+
+ 
 }
